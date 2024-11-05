@@ -19,4 +19,8 @@ update Computer_Products set Production_date = CURRENT_TIMESTAMP where device_na
 select device_type, Sum(device_Quantity) as total_quantity from Computer_Products group by device_type
 
 
-create table
+create table 
+
+create table student(
+id int primary key default(1,1),
+name varchar(10))
