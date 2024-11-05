@@ -17,3 +17,6 @@ insert into Computer_Products values
 update Computer_Products set Production_date = CURRENT_TIMESTAMP where device_name like '%Laptop%'
 
 select device_type, Sum(device_Quantity) as total_quantity from Computer_Products group by device_type
+
+
+create table
