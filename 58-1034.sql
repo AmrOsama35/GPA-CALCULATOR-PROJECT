@@ -24,3 +24,5 @@ create table
 create table student(
 id int primary key default(1,1),
 name varchar(10))
+
+hdfjdhjgdsshjhj
